@@ -4,7 +4,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 
 import static UserData.Constants.MAIN_PAGE;
 
@@ -33,8 +33,6 @@ public class ConstructorTests {
         @Test
         @DisplayName("Переход к разделу «Соусы»")
         public void transitionToSaucesCheck() {
-        mainPage.transitionToppingsClick();
-
         mainPage.transitionSaucesClick();
         mainPage.saucesMenuIsVisibleCheck();
     }
