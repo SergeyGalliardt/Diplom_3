@@ -12,15 +12,15 @@ public class PageObjectConstants {
     //Главная страница. Локатор кнопки "Булки":
     public static final By BunsButton = By.xpath("//span[contains(text(),'Булки')]");
     //Главная страница. Локатор меню "Булки":
-    public static final By BunsMenu = By.xpath("//h2[contains(text(),'Булки')]");
+    public static final By BunsMenu = By.xpath(".//div[@class = 'tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect']/span[text() = 'Булки']");
     //Главная страница. Локатор кнопки "Соусы":
     public static final By SaucesButton = By.xpath("//span[contains(text(),'Соусы')]");
     //Главная страница. Локатор меню "Соусы":
-    public static final By SaucesMenu = By.xpath("//h2[contains(text(),'Соусы')]");
+    public static final By SaucesMenu = By.xpath(".//div[@class = 'tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect']/span[text() = 'Соусы']");
     //Главная страница. Локатор кнопки "Начинки":
     public static final By ToppingsButton = By.xpath("//span[contains(text(),'Начинки')]");
     //Главная страница. Локатор меню "Начинки":
-    public static final By ToppingsMenu = By.xpath("//h2[contains(text(),'Начинки')]");
+    public static final By ToppingsMenu = By.xpath(".//div[@class = 'tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect']/span[text() = 'Начинки']");
     //Главная страница. Локатор меню конструктора
     public static final By ConstructorMenu = By.xpath("//*[@id=\"root\"]/div/main/section[1]");
     //Локатор поля "Имя":

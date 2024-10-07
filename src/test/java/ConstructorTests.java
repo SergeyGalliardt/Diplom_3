@@ -44,8 +44,8 @@ public class ConstructorTests {
         mainPage.toppingsMenuIsVisibleCheck();
     }
 
-        @After
-        public void tearDown() {
+       @After
+       public void tearDown() {
         driver.quit();
     }
 }
